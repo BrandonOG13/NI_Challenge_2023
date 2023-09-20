@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="23008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Main_Temperature.vi" Type="VI" URL="../Main_Temperature.vi"/>
 		<Item Name="Path.vi" Type="VI" URL="../Path.vi"/>
+		<Item Name="Read_Temperature.vi" Type="VI" URL="../Read_Temperature.vi"/>
 		<Item Name="Selector.ctl" Type="VI" URL="../Selector.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
